@@ -1,0 +1,17 @@
+{
+    "name": "singh/phpiggy",
+    "description": "A PHP Application for tracking expences.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "raj"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\":"src/Framework",
+            "App\\":"src/App"
+        }
+    }
+}
